@@ -15,8 +15,10 @@ jobs:
           - 3.8
           - 3.9
         exclude: #added
-         - os: macos-latest #added
-           py-version: 3.7, 3.8 #added
+         - os: macos-latest 
+           py-version: 3.7
+         - os: macos-latest
+           py-version: 3.8
     steps:
       - name: Set up Python
         uses: actions/setup-python@v4
